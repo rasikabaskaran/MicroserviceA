@@ -63,14 +63,14 @@ To request time format conversion from the microservice, follow these steps:
 ## How to Programmatically RECEIVE Data
 To receive time format conversion requests and send back responses, follow these steps:
 
-1. ***Start the Microservice Server***: Open a terminal window and navigate to the directory containing the microservice files and establish a connection to the microservice using ZeroMQ.
+1. **Start the Microservice Server**: Open a terminal window and navigate to the directory containing the microservice files and establish a connection to the microservice using ZeroMQ.
 
-2. ***Run the Server***: Execute the following command to start the microservice server:
+2. **Run the Server**: Execute the following command to start the microservice server:
  python3 server.py
 
-3. ***Process Requests***: As clients send requests specifying the desired operation and parameters, the server will automatically process them and send back responses.
+3. **Process Requests**: As clients send requests specifying the desired operation and parameters, the server will automatically process them and send back responses.
 
-4. ***Response***: Send back a response message containing the requested data starting with 'Response:'
+4. **Response**: Send back a response message containing the requested data starting with 'Response:'
 
 
 Example call:
