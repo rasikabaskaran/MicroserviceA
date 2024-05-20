@@ -34,30 +34,30 @@ To request time format conversion from the microservice, follow these steps:
 3. **Send Request**: In a separate terminal window, run the client script and specify the command and parameters as follows:
    python3 client.py
 
-   -  Convert Time with Specific Format: Use the following command format: 
+   **Convert Time with Specific Format**: Use the following command format: 
    - python3 client.py "time_string" format
-   Example: To convert "12:30 PM" to 24-hour format, use:
+   - Example: To convert "12:30 PM" to 24-hour format, use:
    - '12:30 PM 24'
    
-   - Set Default Time Format: Use the following command format: 
+   **Set Default Time Format**: Use the following command format: 
    - python3 client.py set_default_time_format format
-    Example: To set the default time format to 12-hour or 24-hour, use:
+   - Example: To set the default time format to 12-hour or 24-hour, use:
    - 'set_default_time_format 12' or 'set_default_time_format 24'
  
-   - Convert Time Using Default Format: Use the following command format:
+   **Convert Time Using Default Format**: Use the following command format:
    - python3 client.py "time_string" default
-    Example: To convert "12:30 PM" using the default format, use:
+   -  Example: To convert "12:30 PM" using the default format, use:
    - '12:30 PM default'
    - Expected response: 12:30 if set to 24, 12:30 PM if set to 12
 
-    - Get Default Time Format: Use the following command:
+   **Get Default Time Format**: Use the following command:
     - python3 client.py get_default_time_format
-     Example: To check the default time format:
+    - Example: To check the default time format:
     - 'get_default_time_format'
 
-    - Exit Client: To exit the client, use:
+   **Exit Client**: To exit the client, use:
     - python3 client.py exit
-     Example: To exit:
+    - Example: To exit:
     - 'exit'
 
 ## How to Programmatically RECEIVE Data
