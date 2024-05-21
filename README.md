@@ -1,7 +1,7 @@
 # Time Format Converter Microservice
 
 ## Overview
-This microservice provides functionality for converting between different time formats, including 12-hour and 24-hour formats. It utilizes ZeroMQ for communication between client and server components.
+This microservice provides functionality for converting between different time formats, including 12-hour and 24-hour formats. 
 
 Utilizing the ZeroMQ messaging framework, the microservice establishes efficient communication channels between client and server components. This lightweight and scalable architecture ensures fast and reliable data exchange, making it suitable for integration into a wide range of software systems.
 
