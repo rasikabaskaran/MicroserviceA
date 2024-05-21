@@ -93,4 +93,4 @@ print("Response from microservice:", response)
 ## UML Sequence Diagram
 Here's a UML sequence diagram illustrating how requesting and receiving data works:
 
-![UML - S2.6.jpeg](UML%20-%20S2.6.jpeg)
+![UML Diagram](UML - S2.6.jpeg)
