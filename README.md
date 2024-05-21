@@ -9,9 +9,9 @@ Utilizing the ZeroMQ messaging framework, the microservice establishes efficient
 To execute the microservice, use Python 3. If your system defaults to Python 2, replace `python` with `python3` in the commands.
 
 ### Files
-- client.py: This file contains the client program that demonstrates how to make requests to the microservice and receive responses (test program for video).
 - server.py: This file contains the server program that implements the microservice. It listens for incoming requests, processes them, and sends back responses.
 - main_program.py: This file is designed to help integrate the microservice into your own code. It provides a class-based interface for interacting with the microservice, making it easier to incorporate into other projects.
+- client.py: This file contains the client program that demonstrates how to make requests to the microservice and receive responses (test program for video).
 
 ### Supported Commands
 
@@ -31,7 +31,7 @@ To request time format conversion from the microservice, follow these steps:
 2. **Start the Microservice Server**: Run the server script by executing the following command:
    python3 server.py
 
-3. **Send Request**: In a separate terminal window, run the client script and specify the command and parameters as follows:
+3. **Send Request**: In a separate terminal window, run the main program script and specify the command and parameters as follows:
    python3 main_program.py
 
    **Convert Time with Specific Format**: Use the following command format: 
@@ -55,7 +55,7 @@ To request time format conversion from the microservice, follow these steps:
     - Example: To check the default time format:
     - 'get_default_time_format'
 
-   **Exit Program**: To exit the client, use:
+   **Exit Program**: To exit, use:
     - python3 main_program.py exit
     - Example: To exit:
     - 'exit'
