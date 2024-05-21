@@ -11,7 +11,7 @@ To execute the microservice, use Python 3. If your system defaults to Python 2, 
 ### Files
 - server.py: This file contains the server program that implements the microservice. It listens for incoming requests, processes them, and sends back responses.
 - main_program.py: This file is designed to help integrate the microservice into your own code. It provides a class-based interface for interacting with the microservice, making it easier to incorporate into other projects.
-- client.py: This file contains the client program that demonstrates how to make requests to the microservice and receive responses (test program for video).
+- client.py: This file contains the client program that demonstrates how to make requests to the microservice and receive responses (tested program for video).
 
 ### Supported Commands
 
@@ -19,7 +19,7 @@ To execute the microservice, use Python 3. If your system defaults to Python 2, 
 2. **Set Default Time Format:** Set the default time format preference.
 3. **Convert Time Using Default Format:** Convert a time string using the default format.
 4. **Get Default Time Format:** Retrieve the current default time format setting.
-5. **Exit Client:** Close the client application.
+5. **Exit Program:** Close the application.
 
 
 ## How to Programmatically REQUEST Data
